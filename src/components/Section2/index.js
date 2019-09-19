@@ -20,6 +20,10 @@ class Section2 extends Component {
                     <div className="content-image">
                       <img src={UserSVG}></img>
                     </div>
+                    <div className="content-progress-bar">
+                      <span className="bar"></span>
+                      <h5>1/15</h5>
+                    </div>
                   </div>
                   <div className="col-md-8">
                     <div className="content-description card-reverse">
@@ -46,6 +50,12 @@ class Section2 extends Component {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="col-md-3">
+              <p className="arrow-container">
+                <span className="arrow-button"></span>
+              </p>
             </div>
           </div>
         </div>
