@@ -241,6 +241,50 @@ header {
       border-bottom: 1.5px solid #421279;
     }
   }
+  .section-2-content {
+    margin-top: 50px;
+    .content-number {
+      position: absolute;
+      font-size: 3em;
+      z-index: 3;
+      top: 15px;
+      left: 35px;
+      color: #e0c8ff;
+    }
+    .content-image {
+      position: relative;
+      z-index: 2;
+      margin: 50px 0;
+      img {
+        background-image: linear-gradient(45deg, #2c0b59, #45137d);
+        border-radius: 10px;
+      }
+    }
+    .content-description {
+      padding: 5% 10%;
+      .content-description-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        .card-glow {
+          font-weight: 500;
+        }
+        hr {
+          width: 25%;
+          display: block;
+          height: 1px;
+          border: 0;
+          border-top: 1.5px solid #e0c8ff;
+          margin: 0;
+        }
+      }
+      .content-description-body {
+        line-height: 2em;
+      }
+      .content-description-footer {
+        color: #bc8cfb;
+      }
+    }
+  }
 }
 
 footer {
